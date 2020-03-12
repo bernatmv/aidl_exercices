@@ -1,3 +1,8 @@
 {
-  "python.linting.enabled": true
+  "editor.tabSize": 4,
+  "python.linting.enabled": true,
+  "python.pythonPath": "/Users/gx366vr/.venv/bin/python",
+  "python.linting.flake8Enabled": false,
+  "python.linting.pylintEnabled": false,
+  "python.linting.pycodestyleEnabled": true
 }

@@ -16,6 +16,19 @@ Activate to starting bash (.zshrc) script:
 source ~/.venv/bin/activate
 ```
 
+Set the environment in VS Code on `settings.json`:
+
+```json
+{
+  "editor.tabSize": 4,
+  "python.linting.enabled": true,
+  "python.pythonPath": "/Users/YOUR_HOME/.venv/bin/python",
+  "python.linting.flake8Enabled": false,
+  "python.linting.pylintEnabled": false,
+  "python.linting.pycodestyleEnabled": true
+}
+```
+
 # Auto-Formatting
 
 I'm using (VS Code)[https://code.visualstudio.com/docs/python/python-tutorial] with the (Python extension)[https://marketplace.visualstudio.com/items?itemName=ms-python.python] and autoformatting with `autopep8`.
